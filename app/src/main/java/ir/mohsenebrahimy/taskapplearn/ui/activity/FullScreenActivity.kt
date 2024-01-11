@@ -1,4 +1,4 @@
-package ir.mohsenebrahimy.taskapplearn
+package ir.mohsenebrahimy.taskapplearn.ui.activity
 
 import android.content.Intent
 import android.os.Build

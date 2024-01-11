@@ -1,4 +1,4 @@
-package ir.mohsenebrahimy.taskapplearn
+package ir.mohsenebrahimy.taskapplearn.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -19,5 +19,10 @@ class MainActivity : AppCompatActivity() {
 
         presenter = PresenterMainActivity(view, model)
         presenter.onCreate()
+    }
+
+    override fun onDestroy() {
+        presenter.onDestroy()
+        super.onDestroy()
     }
 }

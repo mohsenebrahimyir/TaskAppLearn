@@ -1,4 +1,22 @@
 <resources>
     <string name="app_name">تسک سنج</string>
     <string name="app_description">با اپلیکیشن تسک سنج کارهاتو مدیریت کن</string>
+    <string name="true_work">انجام شده</string>
+    <string name="false_work">انجام نشده</string>
+    <string name="manage_task">مدیریت وظایف</string>
+    <string name="done_works">کارهای انجام شده</string>
+    <string name="undone_works">کارهای انجام نشده</string>
+    <string name="save">ذخیره</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">منصرف</string>
+    <string name="add_task">افزودن وظیفه</string>
+    <string name="todo">برای انجام دادن</string>
+    <string name="text_task">شرح وظیفه</string>
+    <string name="custom_dialog">توضیح وظیفه</string>
+    <string name="success_edit_task">
+    شرح وظیفه ذخیره شد.
+    </string>
+    <string name="error_edit_task">
+    لطفا شرح وظیفه را وارد کنید.
+    </string>
 </resources>
