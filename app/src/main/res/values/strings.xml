@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">TaskAppLearn</string>
+    <string name="app_name">تسک سنج</string>
+    <string name="app_description">با اپلیکیشن تسک سنج کارهاتو مدیریت کن</string>
 </resources>

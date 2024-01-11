@@ -3,6 +3,9 @@
     <style name="Base.Theme.TaskAppLearn" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Font Family -->
+        <item name="fontFamily">@font/sans_fa_name_regular</item>
+        <item name="font">@font/sans_fa_name_bold</item>
     </style>
 
     <style name="Theme.TaskAppLearn" parent="Base.Theme.TaskAppLearn" />

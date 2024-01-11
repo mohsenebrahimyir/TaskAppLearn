@@ -1,11 +1,17 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("kotlin-kapt")
 }
 
 android {
     namespace = "ir.mohsenebrahimy.taskapplearn"
     compileSdk = 34
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
+    }
 
     defaultConfig {
         applicationId = "ir.mohsenebrahimy.taskapplearn"
@@ -44,4 +50,19 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    //add Room
+    val roomVersion = "2.6.1"
+    implementation("androidx.room:room-ktx:$roomVersion")
+    implementation("androidx.room:room-runtime:$roomVersion")
+    implementation("androidx.room:room-rxjava3:$roomVersion")
+    //noinspection KaptUsageInsteadOfKsp
+    kapt("androidx.room:room-compiler:$roomVersion")
+
+    //RXJava
+    implementation("io.reactivex.rxjava3:rxandroid:3.0.2")
+
+    //Live Data
+    val lifecycleVersion = "2.7.0"
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleVersion")
 }
